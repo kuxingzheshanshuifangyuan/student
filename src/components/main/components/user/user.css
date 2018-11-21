@@ -1,0 +1,10 @@
+.user-avator-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+.user-avator-dropdown .lxr-class {
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0 18px;
+}

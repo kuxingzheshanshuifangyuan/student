@@ -1,0 +1,197 @@
+.side-menu-wrapper{
+  user-select: none;
+  .menu-collapsed{
+    padding-top: 10px;
+    .ivu-dropdown{
+      width: 100%;
+      .ivu-dropdown-rel a{
+        width: 100%;
+      }
+    }
+    .ivu-tooltip{
+      width: 100%;
+      .ivu-tooltip-rel{
+        width: 100%;
+      }
+      .ivu-tooltip-popper .ivu-tooltip-content{
+        .ivu-tooltip-arrow{
+          border-right-color: #fff;
+        }
+        .ivu-tooltip-inner{
+          background: #fff;
+          color: #495060;
+        }
+      }
+    }
+
+
+  }
+  a.drop-menu-a{
+    display: inline-block;
+    padding: 6px 15px;
+    width: 100%;
+    text-align: center;
+    color: #495060;
+  }
+}
+.menu-title{
+  padding-left: 6px;
+}
+
+.side-menu-wrapper{
+  padding-top:80px;
+  .ivu-menu{
+    .ivu-menu-item{
+      color:#4f4f4f;
+      font-size: 16px;
+      .ivu-icon{
+        color:#198cff;
+      }
+    }
+    .ivu-menu-item{
+      &:hover{
+        background:#f4f8fb;
+        position: relative;
+        &::before{
+          content:'';
+          position: absolute;
+          top:0;
+          left:0;
+          width:6px;
+          height:52px;
+          background:#198cff;
+        }
+        span{
+          color:#198cff;
+        }
+      }
+    }
+    .ivu-menu-item-active{
+      background:#f4f8fb !important;
+      color:#198cff;
+      position: relative;
+      &::before{
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        width:6px;
+        height:52px;
+        background:#198cff;
+      }
+      span{
+        color:#198cff;
+      }
+    }
+    .ivu-menu-item-selected{
+      background:#f4f8fb;
+      color:#198cff;
+      span{
+        color:#198cff;
+      }
+    }
+    .ivu-menu-submenu{
+      color:#4f4f4f;
+      font-size: 16px;
+      .ivu-menu-submenu-title{
+        .ivu-icon{
+          color:#198cff;
+        }
+      }
+    }
+    .ivu-menu-opened{
+      background:#fff;
+      .ivu-menu-submenu-title{
+        background:#f4f8fb;
+        color:#198cff;
+        position: relative;
+        &::before{
+          content:'';
+          position: absolute;
+          left:0;
+          top:0;
+          width:6px;
+          height:52px;
+          background:#198cff;
+        }
+      }
+      .ivu-menu{
+        background:#fff;
+        .ivu-menu-item{
+          span{
+            color:#4f4f4f;
+          }
+          &:hover{
+            background:#f4f8fb !important;
+            position: relative;
+            &::before{
+              position: absolute;
+              content:'';
+              width:0;
+              height:0;
+            }
+            span{
+              color:#198cff;
+            }
+          }
+        }
+        .ivu-menu-item-active{
+          background:#f4f8fb;
+          span{
+            color:#198cff;
+          }
+        }
+        .ivu-menu-item-selected{
+          background:#f4f8fb !important;
+          position: relative;
+          &::before{
+            content:'';
+            position: absolute;
+            width:0;
+            height:0;
+          }
+        }
+      }
+    }
+    .ivu-menu-submenu{
+      &:hover{
+        background:#f4f8fb !important;
+        position: relative;
+        .ivu-menu-submenu-title{
+          background:#f4f8fb !important;
+          position: relative;
+          span{
+            color:#198cff;
+          }
+          &::before{
+            position: absolute;
+            content:'';
+            left:0;
+            top:0;
+            width:6px;
+            height:52px;
+            background:#198cff;
+          }
+        }
+        &::before{
+          position: absolute;
+          content:'';
+          left:0;
+          top:0;
+          width:6px;
+          height:52px;
+          background:#198cff;
+        }
+      }
+    }
+  }
+}
+.ivu-menu-submenu-title span>i, .ivu-menu-submenu-title>i{
+  color:#198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-item{
+  color:#198cff;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item:hover, .ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu-title:hover{
+  color:#198cff;
+}

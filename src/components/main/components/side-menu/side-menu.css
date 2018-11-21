@@ -1,0 +1,170 @@
+.side-menu-wrapper {
+  user-select: none;
+}
+.side-menu-wrapper .menu-collapsed {
+  padding-top: 10px;
+}
+.side-menu-wrapper .menu-collapsed .ivu-dropdown {
+  width: 100%;
+}
+.side-menu-wrapper .menu-collapsed .ivu-dropdown .ivu-dropdown-rel a {
+  width: 100%;
+}
+.side-menu-wrapper .menu-collapsed .ivu-tooltip {
+  width: 100%;
+}
+.side-menu-wrapper .menu-collapsed .ivu-tooltip .ivu-tooltip-rel {
+  width: 100%;
+}
+.side-menu-wrapper .menu-collapsed .ivu-tooltip .ivu-tooltip-popper .ivu-tooltip-content .ivu-tooltip-arrow {
+  border-right-color: #fff;
+}
+.side-menu-wrapper .menu-collapsed .ivu-tooltip .ivu-tooltip-popper .ivu-tooltip-content .ivu-tooltip-inner {
+  background: #fff;
+  color: #495060;
+}
+.side-menu-wrapper a.drop-menu-a {
+  display: inline-block;
+  padding: 6px 15px;
+  width: 100%;
+  text-align: center;
+  color: #495060;
+}
+.menu-title {
+  padding-left: 6px;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-item {
+  color: #4f4f4f;
+  font-size: 16px;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-item .ivu-icon {
+  color: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-item:hover {
+  background: #f4f8fb;
+  position: relative;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-item:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 52px;
+  background: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-item:hover span {
+  color: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-item-active {
+  background: #f4f8fb !important;
+  color: #198cff;
+  position: relative;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-item-active::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 52px;
+  background: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-item-active span {
+  color: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-item-selected {
+  background: #f4f8fb;
+  color: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-item-selected span {
+  color: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-submenu {
+  color: #4f4f4f;
+  font-size: 16px;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-submenu .ivu-menu-submenu-title .ivu-icon {
+  color: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened {
+  background: #fff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened .ivu-menu-submenu-title {
+  background: #f4f8fb;
+  color: #198cff;
+  position: relative;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened .ivu-menu-submenu-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 6px;
+  height: 52px;
+  background: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened .ivu-menu {
+  background: #fff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened .ivu-menu .ivu-menu-item span {
+  color: #4f4f4f;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened .ivu-menu .ivu-menu-item:hover {
+  background: #f4f8fb !important;
+  position: relative;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened .ivu-menu .ivu-menu-item:hover::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened .ivu-menu .ivu-menu-item:hover span {
+  color: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened .ivu-menu .ivu-menu-item-active {
+  background: #f4f8fb;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened .ivu-menu .ivu-menu-item-active span {
+  color: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened .ivu-menu .ivu-menu-item-selected {
+  background: #f4f8fb !important;
+  position: relative;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-opened .ivu-menu .ivu-menu-item-selected::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-submenu:hover {
+  background: #f4f8fb !important;
+  position: relative;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-submenu:hover .ivu-menu-submenu-title {
+  background: #f4f8fb !important;
+  position: relative;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-submenu:hover .ivu-menu-submenu-title span {
+  color: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-submenu:hover .ivu-menu-submenu-title::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 6px;
+  height: 52px;
+  background: #198cff;
+}
+.side-menu-wrapper .ivu-menu .ivu-menu-submenu:hover::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 6px;
+  height: 52px;
+  background: #198cff;
+}
